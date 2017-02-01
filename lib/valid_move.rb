@@ -7,7 +7,6 @@ def valid_move?(board, index)
   elsif index < 0 || index > 8
     return false
   end
-    
   
   return true
 end
