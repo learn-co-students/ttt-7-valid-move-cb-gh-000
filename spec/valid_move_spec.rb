@@ -17,7 +17,7 @@ describe './lib/valid_move.rb' do
     board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
     index = 4
 
-    expect(valid_move?(board, index)).to be_falsey
+    expect(valid_move?(board, index)).to be_truthy
   end
 
   it 'returns nil or false for a position that is not on the board' do
